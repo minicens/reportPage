@@ -13,8 +13,8 @@ cd reportPage
 ## 3. 아나콘다 환경 생성
 새로운 Python 가상환경을 생성하고 활성화합니다.
 ```bash
-conda create --name my_django_env python=3.13
-conda activate my_django_env
+conda create -n ll_env python=3.12
+conda activate ll_env
 ```
 
 ## 4. 서버 실행
