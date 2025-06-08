@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<p style="width:750px;height:20px;font-size:18px;margin:7px 5px;">■ 주요업무</p>
+			<table class="table1" >
+				<tbody>
+				<tr style="background-color:#e2e2e2;">
+					<th style="width:150px;">구 분</th>
+					<th style="width:200px;">분 류</th>
+					<th style="width:400px;">세 부 항 목</th>
+				<tr>
+					<td rowspan='2' style="background-color:#e2e2e2;" >기본관리</td>	
+					<td>빌딩종합관리</td>
+					<td style="text-align:left;padding-left:10px;">- 시설 / 미화 / 보안<BR/>- 기타</td>
+				</tr>
+				<tr>
+					<td>법정점검</td>
+					<td style="text-align:left;padding-left:10px;">- 건축물 정기점검 / 정밀점검<br/>- 소방점검/ 실내공기질 측정</td>
+				</tr>
+				<tr>
+					<td rowspan='2' style="background-color:#e2e2e2;">유지보스</td>	
+					<td>순회점검</td>
+					<td style="text-align:left;padding-left:10px;">전기, 설비, 소방, 냉방, 건축</td>
+				</tr>
+				<tr>
+					<td>유지보스</td>
+					<td style="text-align:left;padding-left:10px;">- 공조기 필터청소, 냉각탑 관리 <BR/>- 조명유지관리</td>
+				</tr>
+				<tr>
+					<td rowspan='2' style="background-color:#e2e2e2;">부가서비스</td>	
+					<td>시공관리</td>
+					<td style="text-align:left;padding-left:10px;">- 전기,소방,설비공사 <BR/>- 영선상 공사
+					</td>
+				</tr>
+				<tr>
+					<td>빌딩관리컨설팅</td>
+					<td style="text-align:left;padding-left:10px;">- 장비, 설비진단, 운영진단 - 리모델링 컨설팅 </td>
+				</tr>
+				
+				</tbody>
+			</table>
+{% endblock content %}
