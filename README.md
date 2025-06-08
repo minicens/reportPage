@@ -16,14 +16,18 @@ cd reportPage
 conda create -n ll_env python=3.12
 conda activate ll_env
 ```
+## 4. 장고 설치
+```bash
+conda install django
+```
 
-## 4. 서버 실행
+## 5. 서버 실행
 Django 개발 서버를 실행합니다.
 ```bash
 python manage.py runserver
 ```
 
-## 5. 브라우저에서 확인
+## 6. 브라우저에서 확인
 서버가 정상적으로 실행되면 브라우저에서 아래 URL로 접속합니다.
 ```
 http://127.0.0.1:8000/
