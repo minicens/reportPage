@@ -10,8 +10,7 @@ git clone https://github.com/minicens/reportPage.git
 cd reportPage
 ```
 
-## 3. 아나콘다 환경 생성
-새로운 Python 가상환경을 생성하고 활성화합니다.
+## 3. 아나콘다 설치 및 활성화
 ```bash
 conda create -n ll_env python=3.12
 conda activate ll_env
@@ -21,14 +20,13 @@ conda activate ll_env
 conda install django
 ```
 
-## 5. 서버 실행
+## 5. 장고서버 실행
 Django 개발 서버를 실행합니다.
 ```bash
 python manage.py runserver
 ```
 
 ## 6. 브라우저에서 확인
-서버가 정상적으로 실행되면 브라우저에서 아래 URL로 접속합니다.
 ```
 http://127.0.0.1:8000/
 ```
