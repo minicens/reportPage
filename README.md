@@ -17,13 +17,13 @@ conda create --name my_django_env python=3.13
 conda activate my_django_env
 ```
 
-## 8. 서버 실행
+## 4. 서버 실행
 Django 개발 서버를 실행합니다.
 ```bash
 python manage.py runserver
 ```
 
-## 9. 브라우저에서 확인
+## 5. 브라우저에서 확인
 서버가 정상적으로 실행되면 브라우저에서 아래 URL로 접속합니다.
 ```
 http://127.0.0.1:8000/
